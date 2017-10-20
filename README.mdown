@@ -1,0 +1,6 @@
+## My emacs setup
+
+## How to install For macOS
+brew cask install emacs
+brew install cask
+put all this in you ~/.emacs.d folder.
