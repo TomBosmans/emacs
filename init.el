@@ -13,3 +13,4 @@
 (add-to-list 'load-path "~/.emacs.d/customizations")
 
 (load "ui") ;; Everything ui related
+(load "global") ;; global snizzle
