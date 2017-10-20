@@ -14,3 +14,4 @@
 
 (load "ui") ;; Everything ui related
 (load "global") ;; global snizzle
+(load "setup-neotree") ;; Setup for neotree
