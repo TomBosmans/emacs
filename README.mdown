@@ -8,3 +8,4 @@ I use Cask so this only works for Emacs 24 and up
 - brew cask install emacs
 - brew install cask
 - put all this in you `~/.emacs.d` folder.
+- cask install
