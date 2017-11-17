@@ -17,3 +17,4 @@
 (load "setup-projectile") ;; setup for projectile
 (load "setup-neotree")    ;; Setup for neotree
 (load "setup-gitgutter")  ;; Setup for gitgutter
+(load "setup-webmode")    ;; Setup for web-mode
