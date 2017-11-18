@@ -12,9 +12,10 @@
 ;; Here we put our customizations.
 (add-to-list 'load-path "~/.emacs.d/customizations")
 
-(load "ui")               ;; Everything ui related
-(load "global")           ;; global snizzle
-(load "setup-projectile") ;; setup for projectile
-(load "setup-neotree")    ;; Setup for neotree
-(load "setup-gitgutter")  ;; Setup for gitgutter
-(load "setup-webmode")    ;; Setup for web-mode
+(load "ui")                          ;; Everything ui related
+(load "global")                      ;; global snizzle
+(load "setup-projectile")            ;; setup for projectile
+(load "setup-neotree")               ;; Setup for neotree
+(load "setup-gitgutter")             ;; Setup for gitgutter
+(load "setup-webmode")               ;; Setup for web-mode
+(load "setup-reveal-in-osx-finder")  ;; Setup for reveal-in-osx-finder
