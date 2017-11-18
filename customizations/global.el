@@ -10,3 +10,6 @@
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
 ;; No backup files
 (setq make-backup-files nil)
+
+;; Line numbers
+(global-linum-mode t)
