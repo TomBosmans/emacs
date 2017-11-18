@@ -1,5 +1,4 @@
 (require 'web-mode)
-(require 'projectile)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
 
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))

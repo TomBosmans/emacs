@@ -1,3 +1,5 @@
+(require 'projectile)
+
 ;; Enable Projectile globally
 (projectile-global-mode)
 
