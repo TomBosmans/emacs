@@ -13,3 +13,6 @@
 
 ;; Line numbers
 (global-linum-mode t)
+
+;; Act like a normal text editor
+(delete-selection-mode 1)
