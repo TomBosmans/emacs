@@ -5,7 +5,8 @@
 
 ;; load the awesome
 (load-theme 'solarized-dark t)
-(set-default-font "Monaco 12")
+;;(set-default-font "Monaco 12")
+(set-default-font "Roboto Mono Medium 12")
 
 ;; Use sane fullscreen until Sea Lion fixes fullscreen apps.
 ;; [Source](http://crypt.codemancers.com/posts/2013-07-05-non-native-fullscreen-for-osx-on-emacs-24-dot-3/)
