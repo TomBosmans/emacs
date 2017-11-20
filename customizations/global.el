@@ -1,3 +1,9 @@
+(require 'exec-path-from-shell)
+;; OS X has an issue with picking up the right system env
+;; Explictly setting it here (So shell-command and buddies can use it)
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
+
 ;; Better buffer swithing
 (require 'ido)
 (ido-mode t)
