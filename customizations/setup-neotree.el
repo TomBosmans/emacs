@@ -12,6 +12,7 @@
 (setq projectile-switch-project-action 'neotree-projectile-action)
 
 (global-set-key [f8] 'neotree-toggle)
+(global-set-key (kbd "C-c f") 'neotree-find)
 
 (setq neo-theme (if window-system 'icons 'nerd)) ; 'classic, 'nerd, 'ascii, 'arrow
 
