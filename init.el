@@ -19,4 +19,5 @@
 (load "setup-gitgutter")             ;; Setup for gitgutter
 (load "setup-webmode")               ;; Setup for web-mode
 (load "setup-reveal-in-osx-finder")  ;; Setup for reveal-in-osx-finder
+(load "setup-coffee-mode")           ;; Setup for coffee-mode
 (load "setup-fill-column-indicator") ;; Setup horizontal line for max columns
