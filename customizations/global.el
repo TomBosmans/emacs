@@ -17,8 +17,10 @@
 ;; No backup files
 (setq make-backup-files nil)
 
-;; Line numbers
-(global-linum-mode t)
-
-;; Act like a normal text editor
-(delete-selection-mode 1)
+(global-linum-mode t)          ;; Line numbers
+(delete-selection-mode t)      ;; Act like a normal text editor
+(global-hl-line-mode t)        ;; Highlight current row
+(column-number-mode t)         ;; Show current column
+(show-paren-mode t)            ;; Highlight matching parenthesis
+(highlight-indentation-mode 1) ;; Highlight indentations
+(set-default 'truncate-lines t);; Turn of wrapping when line is too long
