@@ -11,3 +11,9 @@ I use Cask so this only works for Emacs 24 and up
 - brew install ghostscript (Needed to view pdf in doc-view-mode)
 - put all this in you `~/.emacs.d` folder.
 - cask install
+
+## Iterm-2 open file in emacs client:
+- preferences -> profiles -> advanced
+- Semantic History set on "Run coprocess..."
+- fill in: `echo emacsclient -n \1`
+
