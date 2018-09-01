@@ -4,7 +4,7 @@
 (tool-bar-mode -1)
 
 ;; load the awesome
-(load-theme 'solarized-dark t)
+(load-theme 'solarized-light t)
 ;;(set-default-font "Monaco 12")
 (set-default-font "Roboto Mono Medium 12")
 

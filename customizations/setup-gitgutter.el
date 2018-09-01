@@ -3,6 +3,7 @@
 ;; Use git gutter in all the files
 (global-git-gutter-mode +1)
 
+;; More room in the right fringe
 (setq-default left-fringe-width  20)
 
 ;; Tie fighter

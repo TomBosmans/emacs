@@ -17,10 +17,22 @@
 ;; No backup files
 (setq make-backup-files nil)
 
-(global-linum-mode t)          ;; Line numbers
-(delete-selection-mode t)      ;; Act like a normal text editor
-(global-hl-line-mode t)        ;; Highlight current row
-(column-number-mode t)         ;; Show current column
-(show-paren-mode t)            ;; Highlight matching parenthesis
-(highlight-indentation-mode 1) ;; Highlight indentations
-(set-default 'truncate-lines t);; Turn of wrapping when line is too long
+(global-linum-mode t)           ;; Line numbers
+(delete-selection-mode t)       ;; Act like a normal text editor
+(global-hl-line-mode t)         ;; Highlight current row
+(column-number-mode t)          ;; Show current column
+(show-paren-mode t)             ;; Highlight matching parenthesis
+(highlight-indentation-mode 1)  ;; Highlight indentations
+(set-default 'truncate-lines t) ;; Turn of wrapping when line is too long
+
+;; Show color on representing strings
+(define-globalized-minor-mode global-rainbow-mode rainbow-mode
+  (lambda () (rainbow-mode 1)))
+
+;;(global-rainbow-mode 1)
+
+(add-hook 'ruby-mode-hook 'robe-mode)
+(add-hook 'ruby-mode-hook 'minitest-mode)
+
+(setq css-indent-offset 2)
+(setq js-indent-level 2)
