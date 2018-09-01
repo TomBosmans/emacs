@@ -20,4 +20,6 @@
 (load "setup-webmode")               ;; Setup for web-mode
 (load "setup-reveal-in-osx-finder")  ;; Setup for reveal-in-osx-finder
 (load "setup-coffee-mode")           ;; Setup for coffee-mode
+(load "setup-flycheck")              ;; Setup flycheck
+(load "setup-flyspell")              ;; Setup flyspell
 (load "setup-fill-column-indicator") ;; Setup horizontal line for max columns
