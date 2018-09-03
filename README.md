@@ -12,6 +12,9 @@ I use Cask so this only works for Emacs 24 and up
 - put all this in you `~/.emacs.d` folder.
 - cask install
 
+### Inside Emacs:
+- M-x all-the-icons-install-fonts (needed to make neotree pretty)
+
 ## Iterm-2 open file in emacs client:
 - preferences -> profiles -> advanced
 - Semantic History set on "Run coprocess..."
