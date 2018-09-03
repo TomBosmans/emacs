@@ -1,7 +1,9 @@
 (require 'projectile)
 
 ;; Enable Projectile globally
-(projectile-global-mode)
+(projectile-mode +1)
+(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 
 (defun projectile-term ()
   "Create an ansi-term at the project root"
