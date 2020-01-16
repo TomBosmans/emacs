@@ -33,6 +33,9 @@
 
 (add-hook 'ruby-mode-hook 'robe-mode)
 (add-hook 'ruby-mode-hook 'minitest-mode)
+(setq ruby-insert-encoding-magic-comment nil) ;; do not add coding information!
 
 (setq css-indent-offset 2)
 (setq js-indent-level 2)
+
+(add-hook 'after-init-hook #'global-emojify-mode)

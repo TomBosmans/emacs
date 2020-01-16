@@ -24,6 +24,5 @@
 (load "setup-coffee-mode")           ;; Setup for coffee-mode
 (load "setup-flycheck")              ;; Setup flycheck
 (load "setup-flyspell")              ;; Setup flyspell
-(load "setup-markdown")              ;; Setup a comfy way to edit markdown files
 (load "setup-fill-column-indicator") ;; Setup horizontal line for max columns
 (load "setup-dashboard")             ;; Setup for dashboard on emacs launch
