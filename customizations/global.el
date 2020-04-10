@@ -17,13 +17,14 @@
 ;; No backup files
 (setq make-backup-files nil)
 
-(global-linum-mode t)           ;; Line numbers
-(delete-selection-mode t)       ;; Act like a normal text editor
-(global-hl-line-mode t)         ;; Highlight current row
-(column-number-mode t)          ;; Show current column
-(show-paren-mode t)             ;; Highlight matching parenthesis
-(highlight-indentation-mode 1)  ;; Highlight indentations
-(set-default 'truncate-lines t) ;; Turn of wrapping when line is too long
+(global-linum-mode t)                                      ;; Line numbers
+(delete-selection-mode t)                                  ;; Act like a normal text editor
+(global-hl-line-mode t)                                    ;; Highlight current row
+(column-number-mode t)                                     ;; Show current column
+(show-paren-mode t)                                        ;; Highlight matching parenthesis
+(highlight-indentation-mode 1)                             ;; Highlight indentations
+(set-default 'truncate-lines t)                            ;; Turn of wrapping when line is too long
+(global-set-key (kbd "C-x O") 'previous-multiframe-window) ;; revert of C-x o
 
 ;; Show color on representing strings
 (define-globalized-minor-mode global-rainbow-mode rainbow-mode
@@ -39,3 +40,8 @@
 (setq js-indent-level 2)
 
 (add-hook 'after-init-hook #'global-emojify-mode)
+
+;; use clipboard
+(setq select-enable-clipboard nil)
+(setq select-enable-primary t)
+(setq mouse-drag-copy-region 'region)
